@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berlin Furries 🐾 Willkommen im Rudel!</title>
+  <meta name="description" content="Die offene und freundliche Furry-Community in Berlin. Meets, Fursuit Walks, Spieleabende und mehr!">
+  <meta name="theme-color" content="#b48eed">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Skip Link for Accessibility -->
+  <a href="#main" class="skip-link">Zum Inhalt springen</a>
+
+  <!-- Navigation -->
+  <nav class="navbar" aria-label="Hauptnavigation">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Berlin Furries Startseite">
+        <span class="paw-icon" aria-hidden="true">🐾</span>
+        <span>Berlin Furries</span>
+      </a>
+      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="nav-menu">
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu" role="list">
+        <li><a href="#about">Über uns</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#gallery">Galerie</a></li>
+        <li><a href="#rules">Regeln</a></li>
+        <li><a href="#join">Mitmachen</a></li>
+        <li>
+          <button class="theme-toggle" aria-label="Dark Mode umschalten" title="Dark Mode umschalten">
+            <span class="theme-icon" aria-hidden="true">🌙</span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main">
+    <!-- Hero Section -->
+    <section id="hero" class="hero" aria-label="Willkommen">
+      <div class="hero-bg-paws" aria-hidden="true"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="title-line">Berlin</span>
+          <span class="title-line accent">Furries</span>
+        </h1>
+        <p class="hero-subtitle">Willkommen im Rudel! <span class="paw-bounce" aria-hidden="true">🐾</span></p>
+        <p class="hero-tagline">Offen, bunt und flauschig — come as you are!</p>
+        <a href="#join" class="hero-cta">
+          <span>Mach mit!</span>
+          <span class="paw-icon" aria-hidden="true">🐾</span>
+        </a>
+      </div>
+      <div class="hero-paw-trail" aria-hidden="true">
+        <span class="floating-paw" style="--delay: 0s; --x: 10%; --y: 20%">🐾</span>
+        <span class="floating-paw" style="--delay: 1.5s; --x: 85%; --y: 15%">🐾</span>
+        <span class="floating-paw" style="--delay: 0.8s; --x: 70%; --y: 70%">🐾</span>
+        <span class="floating-paw" style="--delay: 2.2s; --x: 20%; --y: 75%">🐾</span>
+        <span class="floating-paw" style="--delay: 3s; --x: 50%; --y: 40%">🐾</span>
+        <span class="floating-paw" style="--delay: 1s; --x: 35%; --y: 55%">🐾</span>
+        <span class="floating-paw" style="--delay: 2.8s; --x: 90%; --y: 50%">🐾</span>
+        <span class="floating-paw" style="--delay: 0.3s; --x: 5%; --y: 45%">🐾</span>
+      </div>
+      <div class="scroll-hint" aria-hidden="true">
+        <span class="scroll-arrow">↓</span>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="paw-deco" aria-hidden="true">🐾</span>
+          Über uns
+          <span class="paw-deco" aria-hidden="true">🐾</span>
+        </h2>
+        <div class="about-grid">
+          <div class="about-card" data-reveal>
+            <div class="about-icon" aria-hidden="true">🦊</div>
+            <h3>Wer wir sind</h3>
+            <p>Wir sind eine offene, freundliche Community von Furries in Berlin. Egal ob du schon lange dabei bist oder gerade erst die Szene entdeckst — bei uns bist du willkommen!</p>
+          </div>
+          <div class="about-card" data-reveal>
+            <div class="about-icon" aria-hidden="true">🎨</div>
+            <h3>Für alle</h3>
+            <p>Fursuiter, Artists, Writer, Musiker oder einfach nur Fans — jeder findet hier seinen Platz. Wir feiern Kreativität und Vielfalt in all ihren Formen.</p>
+          </div>
+          <div class="about-card" data-reveal>
+            <div class="about-icon" aria-hidden="true">💜</div>
+            <h3>Safe Space</h3>
+            <p>Respekt und Freundlichkeit stehen bei uns an erster Stelle. Wir schaffen einen Raum, in dem sich alle wohlfühlen können — genau so, wie sie sind.</p>
+          </div>
+          <div class="about-card" data-reveal>
+            <div class="about-icon" aria-hidden="true">🎉</div>
+            <h3>Was wir machen</h3>
+            <p>Regelmäßige Meets, Fursuit Walks durch Berlin, Bowling, Spieleabende, Movie Nights und gemeinsame Convention-Besuche. Langeweile? Kennen wir nicht!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="section events">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="paw-deco" aria-hidden="true">🐾</span>
+          Events
+          <span class="paw-deco" aria-hidden="true">🐾</span>
+        </h2>
+        <p class="section-intro">Hier ist immer was los! Unsere regelmäßigen Events und Aktivitäten:</p>
+        
+        <div class="events-grid">
+          <article class="event-card" data-reveal>
+            <div class="event-icon" aria-hidden="true">☕</div>
+            <div class="event-info">
+              <span class="event-frequency">Monatlich</span>
+              <h3>Community Meet</h3>
+              <p>Unser monatliches Treffen zum Quatschen, Kennenlernen und gemeinsam Spaß haben. Der perfekte Einstieg für Neue!</p>
+            </div>
+          </article>
+
+          <article class="event-card" data-reveal>
+            <div class="event-icon" aria-hidden="true">🐕</div>
+            <div class="event-info">
+              <span class="event-frequency">Bei gutem Wetter</span>
+              <h3>Fursuit Walk</h3>
+              <p>Gemeinsam in Suit durch Berlins Parks und Straßen — immer ein Highlight! Auch Spotter und Begleiter sind willkommen.</p>
+            </div>
+          </article>
+
+          <article class="event-card" data-reveal>
+            <div class="event-icon" aria-hidden="true">🎳</div>
+            <div class="event-info">
+              <span class="event-frequency">Alle 6 Wochen</span>
+              <h3>Bowling-Abend</h3>
+              <p>Strikes, Spares und jede Menge Gelächter. Bowling-Skills optional, gute Laune Pflicht!</p>
+            </div>
+          </article>
+
+          <article class="event-card" data-reveal>
+            <div class="event-icon" aria-hidden="true">🎲</div>
+            <div class="event-info">
+              <span class="event-frequency">Regelmäßig</span>
+              <h3>Spieleabend</h3>
+              <p>Brett- und Kartenspiele, Tabletop, und manchmal auch Gaming Sessions. Bring dein Lieblingsspiel mit!</p>
+            </div>
+          </article>
+
+          <article class="event-card" data-reveal>
+            <div class="event-icon" aria-hidden="true">🎬</div>
+            <div class="event-info">
+              <span class="event-frequency">Monatlich</span>
+              <h3>Movie Night</h3>
+              <p>Gemeinsam Filme schauen — von Disney-Klassikern über Animations-Hits bis zu Furry-Favoriten. Popcorn nicht vergessen!</p>
+            </div>
+          </article>
+
+          <article class="event-card" data-reveal>
+            <div class="event-icon" aria-hidden="true">🏨</div>
+            <div class="event-info">
+              <span class="event-frequency">Jährlich</span>
+              <h3>Convention-Fahrten</h3>
+              <p>Gemeinsam zu Eurofurence, NordicFuzzCon und anderen Cons. Zusammen reisen macht doppelt Spaß!</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="events-cta">
+          <p class="events-hint">📢 Aktuelle Termine und Anmeldungen findest du in unserer Telegram-Gruppe!</p>
+          <a href="#join" class="btn btn-primary">Zur Gruppe →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="paw-deco" aria-hidden="true">🐾</span>
+          Galerie
+          <span class="paw-deco" aria-hidden="true">🐾</span>
+        </h2>
+        <p class="section-intro">Unsere Community in Bildern</p>
+
+        <div class="gallery-grid">
+          <div class="gallery-item" data-reveal style="--gradient: linear-gradient(135deg, #ffc3d0, #ff9eb5)">
+            <span class="gallery-paw" aria-hidden="true">🐾</span>
+            <span class="gallery-label">Fursuit Walk</span>
+          </div>
+          <div class="gallery-item gallery-item--wide" data-reveal style="--gradient: linear-gradient(135deg, #b48eed, #8ec5fc)">
+            <span class="gallery-paw" aria-hidden="true">🐾</span>
+            <span class="gallery-label">Community Meet</span>
+          </div>
+          <div class="gallery-item" data-reveal style="--gradient: linear-gradient(135deg, #a8edea, #fed6e3)">
+            <span class="gallery-paw" aria-hidden="true">🐾</span>
+            <span class="gallery-label">Bowling Night</span>
+          </div>
+          <div class="gallery-item" data-reveal style="--gradient: linear-gradient(135deg, #ffecd2, #fcb69f)">
+            <span class="gallery-paw" aria-hidden="true">🐾</span>
+            <span class="gallery-label">Spieleabend</span>
+          </div>
+          <div class="gallery-item" data-reveal style="--gradient: linear-gradient(135deg, #a1c4fd, #c2e9fb)">
+            <span class="gallery-paw" aria-hidden="true">🐾</span>
+            <span class="gallery-label">Convention</span>
+          </div>
+          <div class="gallery-item gallery-item--wide" data-reveal style="--gradient: linear-gradient(135deg, #d4fc79, #96e6a1)">
+            <span class="gallery-paw" aria-hidden="true">🐾</span>
+            <span class="gallery-label">Gruppenfoto</span>
+          </div>
+          <div class="gallery-item" data-reveal style="--gradient: linear-gradient(135deg, #f6d365, #fda085)">
+            <span class="gallery-paw" aria-hidden="true">🐾</span>
+            <span class="gallery-label">Movie Night</span>
+          </div>
+          <div class="gallery-item" data-reveal style="--gradient: linear-gradient(135deg, #fbc2eb, #a6c1ee)">
+            <span class="gallery-paw" aria-hidden="true">🐾</span>
+            <span class="gallery-label">Kreativ-Treffen</span>
+          </div>
+        </div>
+
+        <p class="gallery-notice">📸 Fotos werden nur mit ausdrücklicher Erlaubnis der abgebildeten Personen geteilt.</p>
+      </div>
+    </section>
+
+    <!-- Rules Section -->
+    <section id="rules" class="section rules">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="paw-deco" aria-hidden="true">🐾</span>
+          Unsere Regeln
+          <span class="paw-deco" aria-hidden="true">🐾</span>
+        </h2>
+        <p class="section-intro">Damit sich alle wohlfühlen — ein paar einfache Grundsätze:</p>
+
+        <div class="rules-grid">
+          <div class="rule-card" data-reveal>
+            <span class="rule-number" aria-hidden="true">1</span>
+            <h3>Be kind, be respectful 🐾</h3>
+            <p>Freundlichkeit ist unser Grundprinzip. Behandle andere so, wie du selbst behandelt werden möchtest.</p>
+          </div>
+          <div class="rule-card" data-reveal>
+            <span class="rule-number" aria-hidden="true">2</span>
+            <h3>No drama, no hate</h3>
+            <p>Konflikte lösen wir sachlich. Diskriminierung, Mobbing oder Hetze haben bei uns keinen Platz.</p>
+          </div>
+          <div class="rule-card" data-reveal>
+            <span class="rule-number" aria-hidden="true">3</span>
+            <h3>Consent is key 📷</h3>
+            <p>Frag immer, bevor du Fotos machst oder einen Fursuit anfasst. Respektiere ein „Nein" ohne Diskussion.</p>
+          </div>
+          <div class="rule-card" data-reveal>
+            <span class="rule-number" aria-hidden="true">4</span>
+            <h3>Keep it SFW</h3>
+            <p>Unsere Events und Kanäle sind für alle Altersgruppen. Halte Inhalte und Verhalten familienfreundlich.</p>
+          </div>
+          <div class="rule-card" data-reveal>
+            <span class="rule-number" aria-hidden="true">5</span>
+            <h3>Respektiere Grenzen</h3>
+            <p>Jeder hat unterschiedliche Komfortzonen. Achte auf die Grenzen anderer und kommuniziere deine eigenen.</p>
+          </div>
+          <div class="rule-card" data-reveal>
+            <span class="rule-number" aria-hidden="true">6</span>
+            <h3>Hab Spaß! 🎉</h3>
+            <p>Das Wichtigste: Genieß die Zeit mit der Community! Wir sind hier, um gemeinsam eine gute Zeit zu haben.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Join Section -->
+    <section id="join" class="section join">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="paw-deco" aria-hidden="true">🐾</span>
+          Mitmachen
+          <span class="paw-deco" aria-hidden="true">🐾</span>
+        </h2>
+        <p class="section-intro">Lust bekommen? Komm dazu! <br>Schreib uns einfach an, wir beißen nicht! ...meistens 🐺</p>
+
+        <div class="join-grid">
+          <a href="#" class="join-card join-telegram" data-reveal aria-label="Telegram Gruppe beitreten">
+            <div class="join-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="40" height="40"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+            </div>
+            <h3>Telegram</h3>
+            <p>Unsere Hauptgruppe — hier passiert alles!</p>
+            <span class="join-btn">Beitreten →</span>
+          </a>
+
+          <a href="#" class="join-card join-discord" data-reveal aria-label="Discord Server beitreten">
+            <div class="join-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="40" height="40"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+            </div>
+            <h3>Discord</h3>
+            <p>Voice Chats, Channels & mehr</p>
+            <span class="join-btn">Beitreten →</span>
+          </a>
+
+          <a href="#" class="join-card join-twitter" data-reveal aria-label="Auf Twitter/X folgen">
+            <div class="join-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="40" height="40"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </div>
+            <h3>Twitter / X</h3>
+            <p>Neuigkeiten und Fotos</p>
+            <span class="join-btn">Folgen →</span>
+          </a>
+
+          <a href="#" class="join-card join-bluesky" data-reveal aria-label="Auf Bluesky folgen">
+            <div class="join-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="40" height="40"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.785 2.627 3.6 3.501 6.158 3.186-3.94.57-7.478 2.288-2.478 7.373 5.722 5.053 7.673-1.35 8.08-3.056.095-.388.143-.59.162-.59.019 0 .067.202.162.59.407 1.706 2.358 8.109 8.08 3.056 5-5.085 1.462-6.804-2.478-7.373 2.558.315 5.373-.559 6.158-3.186.246-.828.624-5.788.624-6.479 0-.688-.139-1.86-.902-2.203-.659-.299-1.664-.621-4.3 1.24C17.046 4.748 14.087 8.687 13 10.8h-1z"/></svg>
+            </div>
+            <h3>Bluesky</h3>
+            <p>Community-Updates</p>
+            <span class="join-btn">Folgen →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="footer-logo">🐾 Berlin Furries</span>
+          <p>Made with 🐾 in Berlin</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer-Links">
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+          <a href="#about">Über uns</a>
+          <a href="#rules">Regeln</a>
+        </nav>
+        <div class="footer-social" aria-label="Social Media">
+          <a href="#" aria-label="Telegram">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+          </a>
+          <a href="#" aria-label="Discord">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+          </a>
+          <a href="#" aria-label="Twitter / X">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+        </div>
+      </div>
+      <!-- Easter Egg -->
+      <p class="footer-easter" aria-hidden="true" title="Du hast es gefunden!">OwO</p>
+    </div>
+  </footer>
+
+  <!-- Paw Click Effect Container -->
+  <div id="paw-effects" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
